@@ -13,7 +13,7 @@ optdepends=('ruby: for running t2tmake.rb'
             'sh: for running html-update.sh'
             'vim: for using the vim-files')
 makedepends=('gettext')
-source=("http://txt2tags.googlecode.com/files/$pkgname-$pkgver.tgz")
+source=("https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/txt2tags/$pkgname-$pkgver.tgz")
 md5sums=('ac09fd624f1e3a553d5f0e01271cc0ee')
 
 build() {

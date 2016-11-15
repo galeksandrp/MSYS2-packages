@@ -8,7 +8,7 @@ arch=('x86_64' 'i686')
 url='http://xdelta.org/'
 license=('GPL')
 depends=('xz')
-source=("https://${pkgname/3}.googlecode.com/files/${pkgname}-${pkgver}.tar.xz"
+source=("https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/${pkgname/3}/${pkgname}-${pkgver}.tar.xz"
         '0001-regtest_size_t.patch'
         '0002-disable-permission-test.patch')
 sha256sums=('3a86f29c95664fb44b8a40ff22d9bcc3e87aa8c01f0ff75931a7fa78ed3d2e55'
